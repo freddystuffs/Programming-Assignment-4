@@ -2,14 +2,14 @@
 ### **Coded by: Vince Fredrick C. Dela Cruz (2ECE-A)**
 The Programming Assignment 4 for ECE2112 can be seen inside this repository as well as its required .csv file. The main goal of this assignment is to apply our knowledge in data wrangling and visualization by solving sets of problems that helps us learn how to filter tabular data, making data frames by selecting relevant features, summarize the relationship between categorical features and a numerical variable, and to compare data using a clear and correctly labeled plot
 
-##Initial Instructions: 
+## Initial Instructions: 
 ### Make sure to download board2.csv so that the fourth programming assignment can be accomplished.
 ### • Derive all tables and plot values from the dataset. Do not manually type rows, category means, or plotted values.
 ### • When applying more than one condition, make every condition explicit in the filtering expression.
 ### • Keep the original DataFrame unchanged.
 ### • Every graph must have a title, axis labels, readable category labels, and a consistent scale appropriate to the data.
 
-##**A. VISAYAS COMMUNICATION DATAFRAME**
+## **A. VISAYAS COMMUNICATION DATAFRAME**
 Make a data frame named VisComm which will contain students whose hometown is Visayas and track of Communication. (Put it in the order: Name, Gender, Math, Electronics, Average)
 
 **Requirement:**
@@ -33,7 +33,7 @@ len(VisComm) #displays the amount of rows the data frame has
 ```
 5
 
-##**B. VISAYAS FEMALE DATAFRAME**
+## **B. VISAYAS FEMALE DATAFRAME**
 Create another data frame named VisFemale which only contains female students whose hometown is Visayas. (Retain only the Name, Track, GEAS, Electronics, and Average)
 
 **Requirement:**
@@ -55,7 +55,7 @@ VisFemale[(VisFemale['Average']>=60)] #shows the students that only has an avera
 ```
 <img width="387" height="151" alt="image" src="https://github.com/user-attachments/assets/e54f616f-eb0a-485c-9ee2-ed6f1769f434" />
 
-##**C. CATEGORY-AVERAGE VISUALIZATION**
+## **C. CATEGORY-AVERAGE VISUALIZATION**
 Examine how the recorded Average differs across the three categorical features Track, Gender, and
 Hometown.
 a. For each feature, compute the mean of Average for every category using Pandas.
