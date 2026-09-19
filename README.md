@@ -96,3 +96,5 @@ Expected Output:
   
 **Hometown**
 - Finally, for the hometown, the highest observed sample mean is Luzon, having 68.083333 mean.
+
+#Thank you!
