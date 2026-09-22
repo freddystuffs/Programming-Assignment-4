@@ -32,6 +32,7 @@ VisComm
 ```python
 len(VisComm) #displays the amount of rows the data frame has
 ```
+5
 
 ## **B. VISAYAS FEMALE DATAFRAME**
 Create another data frame named VisFemale which only contains female students whose hometown is Visayas. (Retain only the Name, Track, GEAS, Electronics, and Average)
