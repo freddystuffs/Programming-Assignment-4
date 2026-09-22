@@ -28,10 +28,10 @@ Expected Output:
 VisComm
 ```
 <img width="332" height="202" alt="image" src="https://github.com/user-attachments/assets/fa7dda44-5fdf-4ca4-a918-233c7c921f18" />
+
 ```python
 len(VisComm) #displays the amount of rows the data frame has
 ```
-5
 
 ## **B. VISAYAS FEMALE DATAFRAME**
 Create another data frame named VisFemale which only contains female students whose hometown is Visayas. (Retain only the Name, Track, GEAS, Electronics, and Average)
